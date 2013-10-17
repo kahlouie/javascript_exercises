@@ -1,3 +1,5 @@
+// Bookshelf exercise
+
 var Book = function(bookTitle, genre, author) {
     this.bookTitle = bookTitle;
     this.genre = genre;
