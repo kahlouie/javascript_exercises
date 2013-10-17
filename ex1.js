@@ -1,3 +1,5 @@
+// Word guesser
+
 var word = ["E", "N", "T", "E", "R"];
 var guess = ["_", "_", "_", "_", "_"];
 var correctLetters = 0;
