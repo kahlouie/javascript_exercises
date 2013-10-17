@@ -1,3 +1,5 @@
+// Cat exercise
+
 var Cat = function(name,furColor) {
     this.name = name;
     this.furColor = furColor;
@@ -38,9 +40,12 @@ var Cat = function(name,furColor) {
 };
 
 var bilbo = new Cat("Bilbo", "calico");
+
 bilbo.playTime(10);
 console.log("Bilbo is this lonely: " + bilbo.loneliness);
+
 bilbo.petMe(20);
 console.log("Bilbo is now this happy (YAYAYAYAY): " + bilbo.happiness);
+
 bilbo.timePassed(5);
 console.log(bilbo.tiredness, bilbo.hunger, bilbo.loneliness, bilbo.happiness);
